@@ -61,6 +61,8 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyFirebaseMessagingService.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,6 +120,9 @@
       <Version>120.1.7</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.1.0.5" />
+    <PackageReference Include="Xamarin.Google.Dagger">
+      <Version>2.25.2.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.GooglePlayServices.Base">
       <Version>117.2.1</Version>
     </PackageReference>
