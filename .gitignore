@@ -340,4 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 # Google Services JSON
-AreMyServersFailing\google-services.json
+AreMyServersFailing/google-services.json
