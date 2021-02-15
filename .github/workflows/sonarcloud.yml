@@ -1,4 +1,4 @@
-name: Build
+name: SonarCloud Analysis
 on:
   push:
     branches:
@@ -6,8 +6,8 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
-  build:
-    name: Build
+  SonarCloud:
+    name: SonarCloud Analysis
     runs-on: windows-latest
     steps:
       - name: Setup .NET Core
